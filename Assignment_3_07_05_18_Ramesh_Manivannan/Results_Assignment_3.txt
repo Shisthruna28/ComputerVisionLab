@@ -1,0 +1,22 @@
+Multi-layer perceptron with 4 hidden layers of sizes 2056, 1024, 1024 and 512, and an output layer of size 10.
+
+Hyperparameters:-
+
+Dropout probability: 0.3
+L2 Regularization constant: 3e-4
+Batch size: 512
+Learning rate scheduler: Cyclic Learning rates
+
+
+Summary of the Results:-
+
+Optimizer - Adam, Loss - Cross Entropy Loss
+
+Best Validation Acc: 58.16%
+Test Acc: 57.39%
+
+The accuracy obtained by using the other optimizers such as Adagrad, Adadelta, SGD and RMSprop where around 40% to 48% and the other activations such as sigmoid and tanh gave only 35 to 40% accuracy. However, we were not able to show these results code using GridsearchCV as it does not support the learning rate scheduler.
+
+
+
+ 

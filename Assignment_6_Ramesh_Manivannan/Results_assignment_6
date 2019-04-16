@@ -1,0 +1,5 @@
+Convolutional Autoencoder on CIFAR10 gives 69.64% test set accuracy.
+Convolutional Autoencoder on Soccer dataset gives 58.33% test set accuracy.
+
+
+Ladder network has been implemented but not trained because memory errors during training.

@@ -1,0 +1,2 @@
+LSTM implementation without using nn.LSTM gives 98.34% test set accuracy.
+LSTM implementation gives 98.24% test set accuracy.

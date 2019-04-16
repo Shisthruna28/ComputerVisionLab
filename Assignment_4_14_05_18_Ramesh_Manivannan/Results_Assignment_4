@@ -1,0 +1,8 @@
+We have used the VGG16 model architecture for this assignment along with a L2 regularization of 0.0005 and a learning rate scheduler to reduce the learning rate when the model accuracy does not improve.
+
+Best Training set Accuracy:89.52%
+Best Validation set Accuracy:89.23%
+Test set Accuracy:88.33%
+
+We have trained the model for only 50 epochs however, the accuracy can go up to 90% if trained for more epochs.
+

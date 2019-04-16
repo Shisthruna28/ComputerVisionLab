@@ -1,0 +1,9 @@
+Robocup soccer ball classification results:
+
+Using fastai library:
+On validation set of 200 images: 84%
+On test set 100 images: 80%
+
+Without fastai library:
+On validation set of 200 images: 80%
+On test set 100 images: 70%
